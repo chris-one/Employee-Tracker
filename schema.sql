@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS buisness_db;
+CREATE DATABASE buisnesss_db;
+
+USE buisness_db;
+
+CREATE TABLE dept (
+    id INT NOT NULL AUT0_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+)
+
+CREATE TABLE roles (
+    id INT NOT NULL AUT0_INCREMENT, 
+    title VARCHAR(100) NOT NULL,
+    salary DECIMAL
+)
